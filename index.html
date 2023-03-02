@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Lazy Loading Images</title>
+</head>
+
+<body>
+    <!-- Section 1 -->
+    <section id="section1" class="c-section">
+        <h2 class="c-section__heading">Image 1</h2>
+        <p class="c-section__desc">Current size: <span class="c-section__size"></span></p>
+        <img
+            src="img/1-lazy.jpg"
+            data-src="img/1.jpg"
+            alt="Beach"
+            class="c-section__img"
+        />
+    </section>
+
+    <!-- Section 2 -->
+    <section id="section2" class="c-section">
+        <h2 class="c-section__heading">Image 2</h2>
+        <p class="c-section__desc">Current size: <span class="c-section__size"></span></p>
+        <img
+            src="img/2-lazy.jpg"
+            data-src="img/2.jpg"
+            alt="Beach"
+            class="c-section__img"
+        />
+    </section>
+
+    <!-- Section 3 -->
+    <section id="section3" class="c-section">
+        <h2 class="c-section__heading">Image 3</h2>
+        <p class="c-section__desc">Current size: <span class="c-section__size"></span></p>
+        <img
+            src="img/3-lazy.jpg"
+            data-src="img/3.jpg"
+            alt="Beach"
+            class="c-section__img"
+        />
+    </section>
+
+    <!-- Section 4 -->
+    <section id="section4" class="c-section">
+        <h2 class="c-section__heading">Image 4</h2>
+        <p class="c-section__desc">Current size: <span class="c-section__size"></span></p>
+        <img
+            src="img/4-lazy.jpg"
+            data-src="img/4.jpg"
+            alt="Lake"
+            class="c-section__img"
+        />
+    </section>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
